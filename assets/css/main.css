@@ -1,0 +1,58 @@
+#button-logo {
+	width: 230px;
+	height: 150px;
+	border-radius: 3px;
+	background: rgba(0,0,0,.16);
+	cursor: pointer;
+	transition: .2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+
+#button-logo i {
+	font-size: 50px;
+	color: #888;
+}
+
+.input-group {
+	display: flex;
+}
+
+#button-logo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: none;
+}
+
+.unpaid {
+	margin: 0;
+	padding: 0;
+	padding: 10px 15px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+	border: 3px solid red;
+	color: red;
+}
+
+.foto-orang {
+	width: 100%;
+}
+
+.content-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.foto-lahan {
+	width: 100%;
+}
